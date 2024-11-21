@@ -11,9 +11,32 @@
       */
       margin: 0px;
       padding: 0px;
+      
       /*  배경색*/
       background-color: #F5699D;
+      
+      /* 애니메이션 정의 */
+      animation: bgChange 0.15s infinite alternate;
+      /* 무한반복 : infinite */
+      /* 동작교차 : alternate */
     }
+
+      /* 배경색 변경 애니메이션 */
+      @keyframes bgChange {
+        0% {
+          background-color:#F5699D ;
+        }
+        20% {
+          background-color: orangered;
+        }
+        50% {
+          background-color: gray;;
+        }
+        100% {
+          background-color: darkred;
+        }
+      }
+
     div{
       /* 중앙 정렬(포지션 위치) */
       position: absolute; 
