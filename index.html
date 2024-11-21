@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>박시환-Rose APT -24.11.21</title>
+  <style>
+    body{
+      /* 초기화   
+         초기화 
+      */
+      margin: 0px;
+      padding: 0px;
+      /*  배경색*/
+      background-color: #F5699D;
+    }
+    div{
+      /* 중앙 정렬(포지션 위치) */
+      position: absolute; 
+      /* 위치 */
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); /*x,y 좌표값*/
+    }
+    div a img{
+      /* 부모사이즈(디바이스)에 따라 최대 사이즈 100%로 맞춰줌 */
+      max-width: 100%; /*svg는 불가능, img만 가능. 없을 시 반응형이 안됌.*/
+    }
+   
+  </style>
+</head>
+<body>
+  <!-- 
+  1. 배경색 넣기 
+  2. 반응형으로 만들기   -->
+  <!-- 이미지 클릭 시 블랙핑크 사이트 주소로 이동 -->
+  <div>
+    <a href="https://www.blackpinkmusic.com/">
+      <img src="./images/apt.svg" alt="아파트">
+    </a>
+  </div>
+</body>
+</html>
